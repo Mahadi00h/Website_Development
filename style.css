@@ -117,14 +117,25 @@ p{
     background-color: rgba(255, 255, 255, 0.299);
     border-radius: 15px;
  }
- #info {
-    display: block;
-    height: 300px;
-    width: 400px;
-    background-image:linear-gradient(120deg,rgba(0, 0, 0, 0.904),rgba(255,255,255,0,2));
+ #Info0 {
+    display: flex;
+    height:auto;
+    width:auto;
+    background-image:linear-gradient(120deg,rgba(0, 0, 0, 0.904),rgba(255,255,255,0.2));
     backdrop-filter: blur(10px);
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
  }
- #Info0 ul{
-    color: beige;
+ #Info0 ul li{
     list-style-type: none;
+ }
+ #Info0 ul li a{
+        color: rgba(198, 225, 236, 0.557);
+    text-decoration-line: underline;
+    font-size: larger;
+    font-family: monospace;
+    text-shadow: 5px 5px 10px yellowgreen;
+    padding: 5px;
+    margin: 5px;
  }
